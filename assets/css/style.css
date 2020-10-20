@@ -6,6 +6,15 @@ body {
     margin:0;
     
 }
+.hr {
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 40px 0;
+    
+    border:0;
+    background-color: #e5e5e5;
+}
 * 
 *:before,
 :after {
@@ -57,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 .intro_suptitle {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     font-family: 'Kaushan Script', cursive;
   
@@ -223,8 +232,9 @@ a {
     width: 100%;
 
     max-width: 950px;
-    margin:0 auto 40px;
+    margin:0 auto 50px;
     text-align: center;
+    
     
     
 }
@@ -310,4 +320,37 @@ a {
 }
 #About {
     transition:transform .2s linear;
+}
+/*Services*/
+
+.services {
+    display: flex;
+    
+    
+}
+.services_item {
+    flex: 1 1 0;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+    
+}
+.services_icon {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    z-index: 1;
+    
+}
+.services_title {
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
+.services_text {
+    font-size: 15px;
+    color: #999;
+    
 }
