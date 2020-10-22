@@ -333,6 +333,10 @@ a {
  
     
 }
+.section--map {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/001/214/076/small/grey-dots-world-map.jpg);
+    padding: 40px 0;
+}
 .section_header {
 
     width: 100%;
@@ -1163,14 +1167,14 @@ a {
 
 }
 .social_item {
-   
+  
     background-color: #fce38a;
     border-right: 1px solid #f38181;
     text-decoration: none;
     color: #f38181;
 
     padding: 12px 10px;
-    line-height: 1;
+    line-height: 1;п
     transition: background .1s linear,
         color .1s linear;
    border-radius: 10%;
@@ -1181,4 +1185,66 @@ a {
 .social_item:hover {
     color: #fff;
     background-color: #f38181;
+}
+/*Map*/
+
+.map {
+    text-align: center;
+    
+}
+.map_title {
+    font-size: 24px;
+    color: #f38181;
+    font-weight: 700;
+    
+}
+.map_title a {
+    color: inherit;
+}
+.map_title a:hover {
+    text-decoration:underline;
+}
+
+/*Footer*/
+
+.footer {
+    padding-top: 40px;
+    background-color: #f8f8f8;
+    
+}
+.footer_logo {
+    margin-bottom: 30px;
+    color: #ccc;
+    font-weight: 700;
+    font-size: 46px;
+}
+.footer_text {
+    font-size: 15px;
+    color: #999;
+        margin-bottom: 30px;
+}
+.footer_social-header {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+.footer_social-header b {
+    font-size: 18px;
+    
+}
+.footer_social-content {
+    padding-top: 15px;
+    font-size: 15px;
+    color: #333;
+}
+.footer_social {
+    margin-bottom: 25px;
+}
+.footer_social-content a {
+    color: #00FA9A;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
