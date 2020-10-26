@@ -192,7 +192,7 @@ h1,h2,h3,h4,h5,h6 {
     right: 0;
     z-index: 1000;
     margin-right: 30%;
-    
+
 }
 .moyo_inner {
     display: flex;
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
     
 }
 .nav_link {
-    color: #fff;
+    color: blue;
     text-decoration: none;
     transition: color .2s  linear;
     vertical-align: top;
@@ -1164,7 +1164,8 @@ a {
 .social {
         display: flex;
         justify-content: center;
-
+          width: 40px;
+    height: 40px;
 }
 .social_item {
   
@@ -1172,12 +1173,14 @@ a {
     border-right: 1px solid #f38181;
     text-decoration: none;
     color: #f38181;
-
+  
+    
     padding: 12px 10px;
     line-height: 1;п
     transition: background .1s linear,
         color .1s linear;
    border-radius: 10%;
+  
 }
 .social_item:last-child {
     border-right: 0;
@@ -1214,13 +1217,13 @@ a {
 }
 .footer_logo {
     margin-bottom: 30px;
-    color: #ccc;
+    color: #333;
     font-weight: 700;
     font-size: 46px;
 }
 .footer_text {
     font-size: 15px;
-    color: #999;
+    color: #333;
         margin-bottom: 30px;
 }
 .footer_social-header {
@@ -1246,5 +1249,63 @@ a {
     font-size: 18px;
     display: inline-block;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 5px;
 }
+.subcribe {
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    
+}
+
+.footer_inner {
+    padding-bottom: 65px;
+}
+.subcribe_input {
+    width: 60%;
+    background: #fff;
+    border: 1px solid #333;
+    font-size: 10px;
+    color: #333;
+    font-style: italic;
+    font-weight: 300;
+    padding: 12px;
+    font-family: 'Montserrat', sans-serif;
+     line-height: 1.1;
+    border-right: 0;
+    
+}
+.subcribe_btn {
+    height: 40px;
+    background-color: #00FA9A;
+    cursor: pointer;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 12px 30px;
+    line-height: 1.1;
+    width: 40%;
+    transition: background .2s linear;
+}
+.subcribe_input::placeholder {
+    color: #ccc;
+}
+.subcribe_btn:hover {
+    background-color: #74c7b8;
+}
+.subcribe_input:focus {
+    outline: 0;
+}
+.subcribe_input:focus {
+    outline: 0;
+    border-color: #00FA9A;
+}
+.pos {
+   top:35px;
+    right: 63px;
+    position: absolute;
+}
+
