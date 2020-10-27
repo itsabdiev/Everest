@@ -165,23 +165,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 
-.btn {
-    display: inline-block;
-    vertical-align: top;
-    border: 3px solid #fff;
-    padding: 8px 30px ;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: background .1s linear ,color .1s linear;
-    
-}
-.btn:hover {
-    color: #333;
-    background-color: #FF69B4;
-}
+
 /* Header*/
 .moyo {
     padding-top: 30px;
@@ -336,6 +320,7 @@ a {
 .section--map {
     background: url(https://static.vecteezy.com/system/resources/thumbnails/001/214/076/small/grey-dots-world-map.jpg);
     padding: 40px 0;
+    margin-top: 50px;
 }
 .section_header {
 
@@ -570,6 +555,7 @@ a {
     background: #252525;
     width: 100%;
     max-height:340px; 
+    margin-top: 150px;
 }
 
 .testim {
@@ -1195,6 +1181,7 @@ a {
 .map {
     text-align: center;
     
+    
 }
 .map_title {
     font-size: 24px;
@@ -1216,6 +1203,7 @@ a {
 .footer {
     padding-top: 40px;
     background-color: #f8f8f8;
+    margin-bottom: 0;
     
 }
 .footer_logo {
@@ -1266,6 +1254,7 @@ a {
     padding-bottom: 65px;
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 .footer_col--first {
     width: 40%;
@@ -1407,10 +1396,131 @@ a {
     font-size: 14px;
     color: #333;
     text-align: center;
-    
+    margin-bottom: 0;
+ 
 }
 .copyright span {
     color: #f38181;
 }
 
-/*Video*/
+/*Contact Us*/
+
+.contact {
+    display: flex;
+}
+.contact_item1 {
+    width: 50%;
+    background: url(../images/contact.jpeg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+    width:570px; 
+}
+
+.contact_item2 {
+    width: 50%;
+    background-color:cornsilk;
+    height: 700px;
+    width:570px; 
+    
+}
+.address {
+    font-size: 16px;
+    color: aliceblue;
+    margin-top: 90px;
+}
+.podaddress {
+    font-size: 16px;
+    color:#B0C4DE;
+}
+/*Team*/
+
+.container--photo{
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    margin-top: 100px;
+}
+.card{
+  height: 280px;
+  max-width: 450px;
+  margin: 0 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.card:hover{
+  height: 470px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.card .img{
+  height: 200px;
+  width: 100%;
+}
+.card .img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card .top-text{
+  padding: 5px;
+}
+.card .top-text {
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+}
+.name {
+     font-size: 16px;
+  font-weight: 600;
+  color: #202020;
+}
+
+.card .top-text p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
+}
+.card .bottom-text{
+  padding: 0 20px 10px 20px;
+  margin-top: 5px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+}
+.card:hover .bottom-text{
+  opacity: 1;
+  visibility: visible;
+}
+.card .bottom-text .text{
+  text-align: justify;
+}
+.card .bottom-text .btn{
+  margin: 10px 0;
+  text-align: left;
+}
+.card .bottom-text .btn a{
+  text-decoration: none;
+  background: #e74c3c;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card .bottom-text .btn a:hover{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card{
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}
+
