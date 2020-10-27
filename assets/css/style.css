@@ -1434,12 +1434,8 @@ a {
 }
 /*Team*/
 
-.container--photo{
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-    margin-top: 100px;
+.love {
+    display: flex;
 }
 .card{
   height: 280px;
@@ -1448,6 +1444,7 @@ a {
   background: white;
   transition: 0.4s;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
 }
 .card:hover{
   height: 470px;
