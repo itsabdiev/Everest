@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <!-- Somehow I got an error, so I comment the title, just uncomment to show -->
-    <!-- <title>Fullscreen Overlay Navigation | CodingNepal</title> -->
-    <link rel="stylesheet" href="assets/css/meni.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/04c0ca827b.js" crossorigin="anonymous"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@800&family=Suez+One&display=swap" rel="stylesheet">
-  </head>
-  <body>
-  
-  <div class="moyo">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://kit.fontawesome.com/04c0ca827b.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header--fixed">
+    <div class="container">
+        <div class="header_inner">
+            <div class="header_logo">
+                <i class="fas fa-mountain"></i>
+            </div>
+            
+            <nav>
+                    <a class="nav_link" href="#" id="home">Home |</a>
+                    <a class="nav_link" href="#" id="services">Services |</a>
+                    <a class="nav_link" href="#" id="blog">Blog |</a>
+                    <a class="nav_link" href="#" id="contact27"
+                    >Contact us |</a>
+                    <a class="nav_link" href="/Everest/login.html">Sign Up |</a>
+                    <a class="nav_link" href="#">
+                    <i class="fas fa-shopping-cart"></i> 
+                    </a>
+                    <a class="nav_link" href="#">
+                    <i class="fas fa-search"></i>    
+                    </a>
+                    
+                    
+            </nav>
+        </div>
+    </div>
+</header> 
 
-  <div class="moyo_inner">
-     
-      <div class="moyo_logo"><i class="fas fa-mountain"></i></div>
-      <div class="pos">
-       
-     </div>
-      <div class="moyo_text">
-   
-                
-                  
-                <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiYmJ6Nyr7sAhWMqbIKHdj8AIQYABAAGgJscg&ohost=www.google.com&cid=CAASE-RoiYZBM3PPjLFswTlNAeoQQLA&sig=AOD64_1_vNb2GzTDCvl1M2zk_9-q8y0WJA&q&adurl&ved=2ahUKEwifzpaNyr7sAhUEmYsKHQYzBZMQ0Qx6BAgJEAE" class="navv_link"><i class="fas fa-shopping-cart"></i></a>
-                <a href="file:///C:/Users/User/Desktop/Everest/search.html" class="navv_link"><i class="fas fa-search "></i></a>
-          
-      </div>
-  </div>
-  </div>
-   
-    <input type="checkbox" id="active">
-    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
-    <div class="wrapper">
-     
-      <ul>
-<li><a href="#">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Services</a></li>
-<li><a href="#">Contacts</a></li>
-<li><a href="file:///C:/Users/User/Desktop/Everest/login.html">Sign Up</a></li>
-</ul>
-</div>
 
- <div class="intro">
- 
- 
-<div class="container">
+<div class="intro" id="intro">
+    <div class="container">
        <div class="intro_inner">
        
-    <h2 class="intro_suptitle">A single place, millions of creative talents</h2>
-    <h1 class="intro_title">Welcome to Everest</h1>
+<h2 class="intro_suptitle">A single place, millions of creative talents</h2>
+<h1 class="intro_title">Welcome to Everest</h1>
     
     <a href="#" class="btn">Learn more</a>
 </div>
@@ -67,7 +56,7 @@
                <p>To see the world, things dangerous to come to, to see behind walls, draw closer, to find each other, and to feel. That is the purpose of life. </p>
            </div>
        </div>
-       <div   class="about">
+       <div   class="about" id="about">
         <div class="about_item">
             <div class="about_img">
                 <img src="assets/images/page2-1.jpeg" width="380" height="250" alt="">
@@ -84,13 +73,13 @@
             <div class="about_img" alt="">
                 <img src="assets/images/consul.jpeg" width="380" height="250" >
             </div>
-              <div class="about_text">Consultationity</div>
+              <div class="about_text">Consultation</div>
         </div>
   
   </div>
    </div>
     </section> 
-    <section class="section">
+    <section class="section" id="service">
    <div class="container">
        <div class="section_header">
            <h3 class="section_suptitle">We work with</h3>
@@ -145,38 +134,40 @@
              </div>
              <div class="wedo">
                 <div class="wedo_item">
-                    <video width="530" height="380" controls autoplay >
-                        <source src="assets/images/Go%20Vote.mp4">
+                   
+                    <video  id="myVideo" width="530" height="380"    controls autoplay="autoplay">
+                        <source src="assets/images/Treatwell%20Brand%20Film.mp4">
                     </video>
+                 
                 </div>
                 <div class="wedo_item">
                 <div class="accordion">
-                    <div class="accordion_item">
-                        <div class="accordion_header">
+                    <div class="accordion_item" data-collapse="#wedo_1">
+                        <div class="accordion_header" >
                             <img class="accordion_icon" src="https://www.flaticon.com/premium-icon/icons/svg/806/806677.svg" width="35"
                             height="35" alt="">
                             <div class="accordion_title">Photography</div>
                             </div>
                            
                        
-                        <div class="accordion_content">
+                        <div class="accordion_content" id="wedo_1">
                             <p>To see the world, things dsangerous sto come to, to see behind walls, draw closer, to find each other, and to feel. That is the purpose of life.</p>
                         </div>
                         
                          </div>
-                         <div class="accordion_item active">
+                         <div class="accordion_item active" data-collapse="#wedo_2">
                         <div class="accordion_header">
                             <img class="accordion_icon" src="https://www.flaticon.com/svg/static/icons/svg/3637/3637609.svg" width="35"s
                             height="35" alt="">
                             <div class="accordion_title">Creativity</div>
                             </div>
                        
-                        <div class="accordion_content">
+                        <div class="accordion_content" id="wedo_2">
                             <p>To see the world, things dangerous to come to, to see behind walls, draw closer, to find each other, and to feel. That is the purpose of life.</p>
                         </div>
                         
                          </div>
-                          <div class="accordion_item">
+                          <div class="accordion_item" data-collapse="#wedo_3">
                         <div class="accordion_header">
                             <img class="accordion_icon" src="https://www.flaticon.com/svg/static/icons/svg/1055/1055666.svg" width="35"
                             height="35" alt="">
@@ -184,7 +175,7 @@
                             </div>
                            
                        
-                        <div class="accordion_content">
+                        <div class="accordion_content" id="wedo_3">
                             <p>To see the world, things dsangerous sto come to, to see behind walls, draw closer, to find each other, and to feel. That is the purpose of life.</p>
                         </div>
                         
@@ -222,7 +213,7 @@ Apps Developer</p>
 <div class="bottom-text">
           <div class="text">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto adipisci reprehenderit quasi cum perspiciatis, minima reiciendis magni quam!</div>
-<div class="btn">
+<div class="btn2">
             <a href="https://www.instagram.com/mmbtkdrv/" target="_blank">Read more</a>
           </div>
 </div>
@@ -297,7 +288,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                 <img class="works_image "src="assets/images/work2.jpeg"  alt="">
                 <div class="works_info">
                     <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss your  chance</div>
                 </div>
             </div>
             
@@ -310,14 +301,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                 <div class="works_info">
                 
                         <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss your  chance</div>
                 </div>
             </div>
             <div class="works_items">
                 <img class="works_image "src="assets/images/work5.jpeg"  alt="">
                 <div class="works_info">
                     <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss your chance</div>
                 </div>
             </div>
         </div>
@@ -326,7 +317,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                 <img class="works_image2" src="assets/images/work6.jpeg"  alt="">
                 <div class="works_info">
                     <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss  your chance</div>
                 </div>
             </div>
             
@@ -336,14 +327,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                 <img class="works_image "src="assets/images/fish.jpeg"alt="">
                 <div class="works_info">
                     <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss  your chance</div>
                 </div>
             </div>
             <div class="works_items">
                 <img class="works_image "src="assets/images/work1.jpg" alt="">
                 <div class="works_info">
                     <div class="works_title">Creatively designed</div>
-                    <div class="works_text">dont miss chance</div>
+                    <div class="works_text">dont miss your chance</div>
                 </div>
             </div>
         </div>
@@ -366,11 +357,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                     --><li class="dot"></li>
                 </ul>
                 <div id="testim-content" class="cont">
-                    s
+                    
                     <div class="active">
-                        <div class="img"><img src="assets/images/Saku.jpg" alt=""></div>
-                        <h2>Mambetkadyrov S</h2>
-                        <p>Great work Theres nothing to say Only emotions.Masterpiece</p>                    
+                        <div class="img"><img src="assets/images/Gulzada%20Esenalieva.jpg" alt=""></div>
+                        <h2>Gulzada Esenalieva</h2>
+                        <p>Break down the Content for yourself into priority (what you post immediately) and long-term (what you will fill the site with in the future).</p>                    
                     </div>
 
                     <div>
@@ -380,9 +371,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                     </div>
 
                     <div>
-                        <div class="img"><img src="" alt=""></div>
-                        <h2>Lorem Ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        <div class="img"><img src="assets/images/otzyvfoto.jpg" alt=""></div>
+                        <h2>Nuriza Paishan kyzy</h2>
+                        <p>Well designed, good job. Add more information, and buttons.The creativity is perfect.</p>                    
                     </div>
 
                     <div>
@@ -394,7 +385,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
                     <div>
                         <div class="img"><img src="" alt=""></div>
                         <h2>Libs</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                        <p>Honestly, I was really impressed with the work of Everest team. It is really amazing work with high quality, which is very rare in our world. Also, the enthusiasm of the guys is immediately felt, I felt how determined and courageous they are. I promise that if your choice goes to Everest, then you definitely can not go wrong</p>                    
                     </div>
 
                 </div>
@@ -409,7 +400,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
 
 </section>
 </div>
-<section>
+<section id="cucum">
   <div class="container">  
   <form id="contact" action="" method="post">
     <h3>Quick Contact</h3>
@@ -454,7 +445,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
    </section>
 
    
-<footer class="footer">
+<footer class="footer" id="footer">
    <div class="container">
     <div class="footer_inner">
         <div class="footer_col footer_col--first">
@@ -549,40 +540,14 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem quaerat iusto 
 
 
   
-    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
-            <script src="assets/arrow.js"></script>
+   
+ 
 <script src="assets/otzyv.js"></script>
-<script>
-      const searchBox = document.querySelector(".search-box");
-      const searchBtn = document.querySelector(".search-icon");
-      const cancelBtn = document.querySelector(".cancel-icon");
-      const searchInput = document.querySelector("input");
-      const searchData = document.querySelector(".search-data");
-      searchBtn.onclick =()=>{
-        searchBox.classList.add("active");
-        searchBtn.classList.add("active");
-        searchInput.classList.add("active");
-        cancelBtn.classList.add("active");
-        searchInput.focus();
-        if(searchInput.value != ""){
-          var values = searchInput.value;
-          searchData.classList.remove("active");
-          searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
-        }else{
-          searchData.textContent = "";
-        }
-      }
-      cancelBtn.onclick =()=>{
-        searchBox.classList.remove("active");
-        searchBtn.classList.remove("active");
-        searchInput.classList.remove("active");
-        cancelBtn.classList.remove("active");
-        searchData.classList.toggle("active");
-        searchInput.value = "";
-      }
-    </script>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/js.js"></script>
 </body>
 </html>
 
