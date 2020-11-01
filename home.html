@@ -1,101 +1,40 @@
 <!DOCTYPE html>
->
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
   
     <link rel="stylesheet" href="assets/css/home.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
   </head>
 <body>
-<body id="home">
-<main id="content" style="position:relative; overflow:hidden;"> 
-  
-  <div class="banner"> 
-  <!-- setup options for videos that will be played --> 
-    <ul id="jukebox-options" data-play-btn="Start Watching" data-play-cookie="Watch Again" data-pause="Resume Episode" class="banner-wrapper hero">
-      <li data-vid-id="386333192" data-hero="https://tbcdn.talentbrew.com/company/27593-preview-site/v1_0/img/banners/computer-watch.jpg" class="banner-content" data-thumb="https://tbcdn.talentbrew.com/company/27593/v1_0/img/we_hiring/data2.jpg">
-        <h1 class="title">Tech Meets <br>Entertainment</h1>
-        <h2 class="durration">S1:E1 0:50</h2> 
-        <p class="description">Description</p>
-        <div class="play-area">
-          <button class="banner-play">
-            <i class="btn-play"></i>
-            <span></span>          
-          </button>
-          <button class="cancel">Cancel</button>
-          <button class="view-all-link btn border hollow">All Episodes</button>
-        </div>
-      </li>
-      <li data-vid-id="386362087" data-hero="https://tbcdn.talentbrew.com/company/27593-preview-site/v1_0/img/banners/we-are.jpg" class="banner-content" data-thumb="https://tbcdn.talentbrew.com/company/27593/v1_0/img/we_hiring/design2.jpg">
-        <h1 class="title">We are all <br>Hulugans</h1>
-        <h2 class="durration">S1:E2 0:47</h2>
-        <p class="description">Description</p>
-        <div class="play-area">
-          <button class="banner-play">
-            <i class="btn-play"></i>
-            <span></span>          
-          </button>
-          <button class="cancel">Cancel</button>
-          <button class="view-all-link btn border hollow">All Episodes</button>
-        </div>
-      </li>
-      <li data-vid-id="386334957" data-hero="https://tbcdn.talentbrew.com/company/27593-preview-site/v1_0/img/banners/steps.jpg" class="banner-content" data-thumb="https://tbcdn.talentbrew.com/company/27593/v1_0/img/we_hiring/advertising2.jpg">
-        <h1 class="title">Proud to be a <br>Hulugan</h1>
-        <h2 class="durration">S1:E3 1:50</h2>
-        <p class="description">Description</p>
-        <div class="play-area">
-          <button class="banner-play">
-            <i class="btn-play"></i>
-            <span></span>
-          </button>
-          <button class="cancel">Cancel</button>
-          <button class="view-all-link btn border hollow">All Episodes</button>
-        </div>
-      </li>
-      <li data-vid-id="386362140" data-hero="https://tbcdn.talentbrew.com/company/27593-preview-site/v1_0/img/banners/computers.jpg" class="banner-content" data-thumb="https://tbcdn.talentbrew.com/company/27593/v1_0/img/we_hiring/product2.jpg">
-        <h1 class="title">Covered like a <br>Hulugan</h1>
-        <h2 class="durration">S1:E3 1:50</h2>
-        <p class="description">Description</p>
-        <div class="play-area">
-          <button class="banner-play">
-            <i class="btn-play"></i>
-            <span></span>
-          </button>
-          <button class="cancel">Cancel</button>
-          <button class="view-all-link btn border hollow">All Episodes</button> 
-        </div>
-      </li>
-    </ul> 
-  </div>
+  <section class='zoom'>
+   
+    <img id='layer1' src="https://i.postimg.cc/zB7PpYL1/mountain1.png">
+    <img id='layer2' src="https://i.postimg.cc/Qthypddb/mountain2.png">
+    <img id='text' src="https://i.postimg.cc/zBr90k0T/text.png">
+  </section>
+  <section class='content'>
+    <h1>Story about Everest</h1>
+    <p>
+A mountain is a large landform that rises above the surrounding land in a limited area,             usually in the form of a peak.[1] A mountain is generally steeper than a hill. Mountains are       formed through tectonic forces or volcanism. These forces can locally raise the surface of the earth. Mountains erode slowly through the action of rivers, weather conditions, and glaciers. A few mountains are isolated summits, but most occur in huge mountain ranges.
 
-<!-- This is the actual player --> 
-<div id="video-player-overlay">
-  <div id="video-player-wrapper" class="center-popup">
-    <div id="jukebox-player"></div>
+High elevations on mountains produce colder climates than at sea level. These colder climates strongly affect the ecosystems of mountains: different elevations have different plants and animals. Because of the less hospitable terrain and climate, mountains tend to be used less for agriculture and more for resource extraction and recreation, such as mountain climbing.
+
+The highest mountain on Earth is Mount Everest in the Himalayas of Asia, whose summit is 8,850 m (29,035 ft) above mean sea level. The highest known mountain on any planet in the Solar System is Olympus Mons on Mars at 21,171 m (69,459 ft).
+    </p>
+    </section>
+<div class="buttons">
+  <div class="container">
+     
+      <a href="/Everest/index.html" class="btn effect04" data-sm-link-text="home" target="_blank"><span> :)</span></a>
   </div>
 </div>
-
-<div id="view-all-overlay">
-  <div id="view-all-wrapper">
-<!-- below is baseline for view all -->
-    <div id="jukebox-view-all" class="hulugan-life-slider popup" >
-      <div class="content-width">
-        <div class="headline">
-          <h3><span class="green-highlight in-view">All</span> Episodes</h3>
-          <p>Binge on our new job series and learn all about life as a Hulugan. <span>4 Episodes</span></p>
-        </div>
-        <div id="video-complement-slider" class="ul-mock"></div>
-      </div>
-    </div>
-<!-- above is baseline for view all -->
-  </div>
-  </div>
-  
-</main>
+<script src="assets/everest.js"></script>
 </body>
-<script src="assets/js.js"></script>
 
-</body>
+
+
 </html>
 
