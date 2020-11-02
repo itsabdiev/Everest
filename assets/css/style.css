@@ -293,6 +293,14 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
     
 }
+
+.services_item2 {
+    flex: 1 1 0;
+    padding-left: 85px;
+    padding-right: 35px;
+    position: relative;
+    margin-top: 30px;
+}
 .services_icon {
     position: absolute;
     top: 0;
@@ -314,6 +322,7 @@ h1,h2,h3,h4,h5,h6 {
 .services_text {
     font-size: 15px;
     color: #999;
+    
     
 }
 /*WEdo*/
@@ -1320,7 +1329,7 @@ h1,h2,h3,h4,h5,h6 {
 
 }
 .card:hover{
-  height: 470px;
+  height: 400px;
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 .card .img{
@@ -1355,7 +1364,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .card .bottom-text{
   padding: 0 20px 10px 20px;
-  margin-top: 5px;
+  margin-top: 30px;
   background: white;
   opacity: 0;
   visibility: hidden;
