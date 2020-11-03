@@ -154,7 +154,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 /*button*/
 
-.btn {
+.btn2 {
     display: inline-block;
     vertical-align: top;
     border: 3px solid #fff;
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6 {
     transition: background .1s linear ,color .1s linear;
     
 }
-.btn:hover {
+.btn2:hover {
     color: #333;
     background-color: #FF69B4;
 }
