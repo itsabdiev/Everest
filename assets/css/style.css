@@ -1561,7 +1561,7 @@ fieldset {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   border-radius: 50%;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0.6s;
